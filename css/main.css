@@ -1,0 +1,48 @@
+body {
+    background: #f8f8f8;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 7px 0px;
+    margin: 12px 0px;
+    margin-bottom: 12px;
+}
+ul {
+    padding: 0px;
+    margin: 5px 0px 12px;
+}
+li {
+    padding: 12px 0px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+}
+li:last-child {
+    border-bottom: 0px;
+}
+.box {
+    margin: 20px 0px;
+    padding: 0px 18px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.tag {
+    padding: 2px 3px;
+    margin-right: 4px;
+    border-radius: 4px;
+    background: #444;
+    color: #fff;
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+
+/** Custom Stuff **/
+#testViewer {
+    width: 740px;
+    margin: 80px auto;
+}
+.testList li {
+    font-size: 1.2em;
+}
